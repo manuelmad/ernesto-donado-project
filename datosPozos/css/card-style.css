@@ -1,0 +1,13 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* add some margin to separate from the table */
+}
+
+.card {
+    width: 30%;
+    /* adjust the width as needed */
+}
