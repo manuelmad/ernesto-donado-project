@@ -47,7 +47,7 @@ $registros = $stmt->fetchAll(PDO::FETCH_OBJ);
             <div class="col-md-6">
                 <div class="container">
                     <br>
-                    <table id="pozos" class="table table-striped table-hover" width="100%">
+                    <table id="pozos" class="table table-stripe table-hover" width="100%">
                         <thead>
                             <tr>
                                 <th scope="col">Government Number</th>
@@ -84,32 +84,29 @@ $registros = $stmt->fetchAll(PDO::FETCH_OBJ);
     <br>
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col float-start">
+            <!-- <div class="col float-start">
                 <div class="card text-bg-danger">
                     <div class="card-body" style="background-color:#BF0A30">
                         <h5 class="card-title">Configuración de Parámetros</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a class="btn btn-primary" id="openModalBtn">Ver Más </a>
+                        <p class="card-text">Falta algo en el registro? Actualizalo aca</p>
+                        <a class="btn btn-primary" id="#">Ver Más </a>
                     </div>
                 </div>
-            </div>
-            <div class="col float-start">
+            </div> -->
+            <!-- <div class="col float-start">
                 <div class="card text-bg-danger">
                     <div class="card-body" style="background-color:#BF0A30">
                         <h5 class="card-title">Ubicación</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Ubicar campo en el mapa</p>
                         <a href="historia.html" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col float-start">
                 <div class="card text-bg-danger">
                     <div class="card-body" style="background-color:#BF0A30">
                         <h5 class="card-title">Historia</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Revisa la historia de cada uno de los pozos, organizados por campos</p>
                         <a href="historia.html" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
@@ -118,7 +115,7 @@ $registros = $stmt->fetchAll(PDO::FETCH_OBJ);
                 <div class="card text-bg-danger">
                     <div class="card-body" style="background-color:#BF0A30">
                         <h5 class="card-title">Acerca de la Empresa</h5>
-                        <p class="card-text">Nos enfocamos en la exploración, producción y comercialización de hidrocarburos, siempre comprometidos con el desarrollo sostenible y la responsabilidad social. </p>
+                        <p class="card-text">Nos enfocamos en la exploración, producción y comercialización de hidrocarburos </p>
                         <a class="btn btn-primary" id="openModalBtn">Ver Más </a>
                     </div>
                 </div>
@@ -142,9 +139,8 @@ $registros = $stmt->fetchAll(PDO::FETCH_OBJ);
                 <div class="card text-bg-danger">
                     <div class="card-body" style="background-color:#BF0A30">
                         <h5 class="card-title">Otros Recursos</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="historia.html" class="btn btn-primary">Ver Más</a>
+                        <p class="card-text">Conoce mas acerca de la empresa, y revisa material de interes</p>
+                        <a href="http://www.pdvsa.com/index.php?lang=es" target="_blank" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
             </div>
